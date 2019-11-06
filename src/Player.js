@@ -17,6 +17,7 @@ class Player extends Component {
     addPart = () => {
         const parts = document.getElementById('parts')
         const audio = document.getElementById('track')
+        parts.value += 'abc'
    }
 
     render() {
@@ -35,7 +36,7 @@ class Player extends Component {
                 <button onclick={() => this.volumeUpDown(-0.1)}>Vol- </button>
                 <div>
                     <textarea name="parts" id="parts" cols={40} rows={10}></textarea>
-                    <button onclick={() => this.addPart()}>Add </button>
+                    <button onClick={() => this.addPart()}>Add </button>
                 </div>
             </div>
         )
