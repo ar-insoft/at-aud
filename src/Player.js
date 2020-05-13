@@ -65,6 +65,16 @@ class Player extends Component {
         saveAs(blob, fileName);
     }
 
+    saveJson = () => {
+        const epNo = this.props.epNo
+        const fileName = 'ep' + epNo + '_mp3test.json'
+        const parts = this.state.parts
+        const reducer = (acc, part) => acc + '\n' + part
+        const lines = parts.reduce(reducer, '1.5')
+        var blob = new Blob([JSON.stringify(this.state.lesson)], { type: "text/plain;charset=utf-8" });
+        saveAs(blob, fileName);
+    }
+
     playPart = (index) => {
         const parts = this.state.parts
         if (index > 0 && index < parts.length) {
@@ -101,6 +111,7 @@ class Player extends Component {
                         <button onClick={() => this.volumeUpDown(0.1)} className="header-button">Vol+ </button>
                         <button onClick={() => this.volumeUpDown(-0.1)} className="header-button">Vol- </button>
                         <button onClick={() => this.saveParts()} className="header-button"><strong>Save</strong></button>
+                        <button onClick={() => this.saveJson()} className="header-button"><strong>SaveJson</strong></button>
                     </div>
             </header>
             <div className="content">
@@ -111,9 +122,9 @@ class Player extends Component {
                 <div>
                         <div className="flex-container">
                             <div className="audioPart">
-                                <button type="button">{'<'}</button>
-                                <input type="text" value={0} className="edit" />
-                                <button type="button">{'>'}</button>
+                                <button type="button" disabled>{'<'}</button>
+                                <input type="text" value={0} className="edit" readOnly />
+                                <button type="button" disabled>{'>'}</button>
                                 
                             </div>
                             <div className="linia"></div>
@@ -121,10 +132,10 @@ class Player extends Component {
                     {this.state.lesson.map((linia, index) => {
                         let audioPart = (this.state.parts.length > index) ? this.state.parts[index] : ''
                         return (
-                            <div className="flex-container">
+                            <div className="flex-container" key={index}>
                                 <div className="audioPart">
                                     <button type="button" onClick={() => this.addToPart(index, -0.1)}>{'<'}</button>
-                                    <input type="text" value={audioPart} className="edit" />
+                                    <input type="text" value={audioPart} className="edit" readOnly/>
                                     <button type="button" onClick={() => this.addToPart(index, 0.1)}>{'>'}</button>
                                     <button type="button" onClick={() => this.playPart(index)} >play</button>
                                 </div>

@@ -36,7 +36,7 @@ class Tabs extends Component {
             })
         }),
         {
-            menuItem: 'Boxes',
+            menuItem: 'Player',
             render: () =>
                 <Tab.Pane>
                     <Player epNo={'06'} />
