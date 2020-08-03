@@ -18,7 +18,7 @@ class Player extends Component {
 
     async load() {
         const epNo = this.props.epNo
-        const jsonName = '/data/ep' + epNo + '.json'
+        const jsonName = '/atWork/ep' + epNo + '.json'
         const response = await fetch(jsonName);
         const myJson = await response.json();
         this.setState({lesson: myJson})
@@ -66,12 +66,20 @@ class Player extends Component {
     }
 
     saveJson = () => {
-        const epNo = this.props.epNo
-        const fileName = 'ep' + epNo + '_mp3test.json'
+        const lesson = [...this.state.lesson]
         const parts = this.state.parts
-        const reducer = (acc, part) => acc + '\n' + part
-        const lines = parts.reduce(reducer, '1.5')
-        var blob = new Blob([JSON.stringify(this.state.lesson)], { type: "text/plain;charset=utf-8" });
+        parts.forEach((element, index) => {
+            const previous = index === 0 ? '1.5' : parts[index - 1]
+            if (index < lesson.length) {
+                const linia = lesson[index]
+                linia.mp3End = "" + element
+                linia.mp3Start = "" + previous
+            }
+        })
+
+        const epNo = this.props.epNo
+        const fileName = 'ep' + epNo + '.json'
+        var blob = new Blob([JSON.stringify(lesson)], { type: "text/plain;charset=utf-8" });
         saveAs(blob, fileName);
     }
 
@@ -98,8 +106,8 @@ class Player extends Component {
 
     render() {
         const epNo = this.props.epNo
-        const mp3Path = '/data/ep' + epNo + '.mp3'
-        //const src = "/data/ep06.mp3"
+        const mp3Path = '/atWork/ep' + epNo + '.mp3'
+        //const src = "/atWork/ep06.mp3"
         return (
             <>
                 <header className="header">

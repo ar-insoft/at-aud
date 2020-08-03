@@ -1,5 +1,6 @@
 {
   "name": "at_aud",
+  "homepage": "http://ar-insoft.github.io/react/at_aud",
   "version": "0.1.20200504",
   "private": true,
   "dependencies": {

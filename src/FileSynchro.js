@@ -28,7 +28,7 @@ export const SynchroEffect = ({ epNo }) => {
      * @param {string} lang
      */
     async function loadInLang(epNo, lang) {
-        const jsonName = '/data/FileSynchro/ep' + epNo + '_'+lang+'.txt'
+        const jsonName = '/atWork/FileSynchro/ep' + epNo + '_'+lang+'.txt'
         const response = await fetch(jsonName);
         const text = await response.text();
         switch (lang) {
@@ -45,14 +45,14 @@ export const SynchroEffect = ({ epNo }) => {
      * @param {string} epNo
      */
     async function loadEn(epNo) {
-        const jsonName = '/data/FileSynchro/ep' + epNo + '_en.txt'
+        const jsonName = '/atWork/FileSynchro/ep' + epNo + '_en.txt'
         const response = await fetch(jsonName);
         const text = await response.text();
         setTextEn(text)
     }
 
     async function sprawdzCzyJestJson(epNo) {
-        const jsonName = '/data/FileSynchro/ep' + epNo + '.json'
+        const jsonName = '/atWork/FileSynchro/ep' + epNo + '.json'
         const response = await fetch(jsonName);
         if (response.ok) {
             setShowPlayer(true)
@@ -124,7 +124,10 @@ export const SynchroEffect = ({ epNo }) => {
                     textEn.split("\n").map((line, index) => {
                         return (
                             <div className="line" key={index}>
-                                <div className="line_index">{index}</div>
+                                <div className="line_index">
+                                    {index}
+                                    <button onClick={() => joinNextLine(index + 1)} className="header-button"><strong>x</strong></button>
+                                </div>
                                 <div className="line_en">
                                     <textarea id={"epEn" + index} name='textEn' value={line} readOnly
                                         className="file_synchro_textarea"/>
@@ -172,7 +175,7 @@ class FileSynchro extends Component {
 
     async loadEn() {
         const epNo = this.props.epNo
-        const jsonName = '/data/FileSynchro/ep' + epNo + '_en.txt'
+        const jsonName = '/atWork/FileSynchro/ep' + epNo + '_en.txt'
         const response = await fetch(jsonName);
         const myJson = await response.text();
         this.setState({ epEn: myJson })
