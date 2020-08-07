@@ -110,6 +110,16 @@ export const SynchroEffect = ({ epNo }) => {
         setTextPl(newPl)
     }
 
+    /**
+     * @param {number} lineNo
+     */
+    const joinNextLineEn = (lineNo) => {
+        const newEn = textEn.split("\n").reduce((previousValue, currentValue, index, array) => {
+            return previousValue + (index !== lineNo ? '\n' : ' ') + currentValue
+        })
+        setTextEn(newEn)
+    }
+
     return (
         <>
             <div>
@@ -126,7 +136,7 @@ export const SynchroEffect = ({ epNo }) => {
                             <div className="line" key={index}>
                                 <div className="line_index">
                                     {index}
-                                    <button onClick={() => joinNextLine(index + 1)} className="header-button"><strong>x</strong></button>
+                                    <button onClick={() => joinNextLineEn(index + 1)} className="header-button"><strong>x</strong></button>
                                 </div>
                                 <div className="line_en">
                                     <textarea id={"epEn" + index} name='textEn' value={line} readOnly
