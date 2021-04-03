@@ -1,1 +1,81 @@
- 
+Anna: (wali w komputer) Zamrożone. Nic nie zadziała…
+Tom: Tak i wszystkie moje wyniki piłkarskie… mam na myśli konta firmowe… mają
+zniknął.
+Paul: Czy każdy może zmusić swoje komputery do pracy? Czy to tylko ja?
+Narrator: Witamy ponownie w biurach Tip Top Trading, gdzie, jak słychać,
+wygląda na to, że jest trochę problemów z komputerem. Wydaje się, że praca każdego
+zniknął. To poważna sprawa, więc kto może to rozwiązać?
+Denise: Zostaw to mnie, ja to rozwiążę. (Naciskając klawisze komputera) Po prostu musisz
+wyłącz… i włącz ponownie… w ten sposób. (Odgłosy komputera)
+Anna: Poczekaj, sprawdźmy… Denise! Wszystkie moje dokumenty zniknęły teraz!
+Denise: Och, przepraszam, tylko próbowałem pomóc. Musisz tylko zadzwonić do I.T. Wsparcie,
+spójrz, oto ich numer.
+Anna: Wsparcie „to”?
+Narrator: Nie, Anna, nie „to”, ale I.T. Wsparcie - technologia informacyjna - czasami
+zwany Computer Support. Ma je ​​większość dużych firm. To są
+ludzie, którzy rozwiązują problemy z komputerem i sprawiają, że wszystko działa
+jeszcze raz. Ale bądź ostrożny, mogą zadać kilka trudnych pytań.
+Anna: OK, dzięki. Ale co mam im powiedzieć?
+Narrator: Powiedz im: „Mam problemy z komputerem”, a następnie powiedz „ekran
+ciągle się zawiesza ”i„ Wygląda na to, że zgubiłem jakieś dokumenty ”. Powiedz im„ Ja
+wyłączył i włączył komputer, ale to nie rozwiązało problemu ”. Na koniec zapytaj, czy
+mogą pomóc - proszę!
+Anna: Cóż, spróbuję. Tutaj idzie. (Wybiera numer i dzwoni)
+IT Man: IT, mówi Dave, jak mogę pomóc?
+Anna: O, cześć Dave - mam pewne problemy z komputerem - tak naprawdę każdy jest
+tutaj.
+IT Man: Tak. Z jakiego systemu korzystasz?
+Anna: Jaki system?
+IT Man: Tak, czego używasz? PC, laptop, Windows XP?
+Denise: Powiedz mu, że to Windows 7.
+Anna: Eee… to Windows 7 na PC.
+IT Man: Dobrze, dobrze, to powinno być łatwe. Czy korzystałeś z wielu aplikacji, kiedy to
+rozbił się?
+Anna: Aplikacje?
+IT Man: Czy miałeś wiele otwartych rzeczy - dokumenty, arkusze kalkulacyjne, filmy i inne
+oprogramowanie?
+Anna: Cóż, chyba tak.
+IT Man: No cóż… Anna, prawda?
+Anna: Tak.
+IT Man: No cóż Anna, spróbuj nacisnąć control, alt, delete, w tym samym czasie - po
+które spróbuj ponownie otworzyć system Windows.
+Anna: OK. (Krzyczy do Toma) Tom, czy mógłbyś otworzyć okna, proszę.
+TOM: A co? Okna?!
+Anna: Tak. Dave tak mówi.
+IT Man: Nie, nie, nie. Otwórz system Windows 7 na swoim komputerze.
+Anna: Och, głupia ja! (Pukanie w klawiaturę) Nie, ekran po prostu się zawiesza. Jestem trochę
+zmartwiony, ponieważ wydaje mi się, że zgubiłem niektóre dokumenty.
+IT Man: Hmmm. W takim przypadku jedyną rzeczą do zrobienia jest ponowne uruchomienie.
+Anna: Zrestartować? Masz na myśli kopnięcie ?!
+Denise: Nie! Restart oznacza włączenie i wyłączenie.
+Anna: Och, rozumiem. Nie, Dave, już próbowałem go wyłączyć i włączyć, ale to
+nie naprawił tego. Co ja mam zrobić?
+nd
+IT Man: Nie panikuj! Przyjdę i zobaczę. Jesteś na drugim piętrze, prawda?
+Narrator: Ojej. To trochę niepokojące, ale jestem pewien, że Dave, informatyk, zrozumie
+rzeczy posortowane. Pamiętaj, jeśli masz ważne dokumenty, najlepiej to zrobić
+zrób ich kopię zapasową na karcie pamięci na wypadek, gdybyś miał taki problem.
+Przypomnijmy sobie wyrażenia, których moglibyśmy użyć, gdybyśmy musieli zadzwonić
+pomoc komputerowa:
+Mam problemy z komputerem
+Ekran ciągle się zawiesza
+Wydaje mi się, że zgubiłem jakieś dokumenty
+Wyłączyłem i włączyłem komputer, ale to nie rozwiązało problemu
+Czy możesz pomóc, proszę?
+(Podnieś drzwi otwarte)
+IT Man: O cześć. Jest Anna?
+Denise: Jest tam.
+Tom: (pod biurkiem) A więc Anna, zamierzam tylko odłączyć ekran i włożyć
+kabel z powrotem tutaj…
+Anna: OK Tom, ale czy wszystko w porządku na dole? Uważaj na głowę.
+IT Man: Przepraszam, jesteś Anna? Przyszedłem naprawić twój… komputer.
+Anna: Och, cześć… musisz być… Dave. Bardzo lubię twoje włosy.
+Tom: (Uderza głową w stół) Ow!
+IT Man: Dzięki. Wyglądasz raczej ślicznie. Lepiej spojrzę na twój komputer.
+Tom: Nie martw się, jest OK, myślę, że naprawiłem to!
+Narrator: Wygląda na to, że Tom ma rywala. Czy Anna zakocha się w urokach Dave'a?
+Informatyk, czy po prostu zamierza zaktualizować jej oprogramowanie? To może być bardzo
+interesujące - ale wciąż jest wiele do zrobienia - więc dołącz do nas wkrótce ponownie
+Słuchanie Challenge:
+Jaki jest termin techniczny określający wyłączanie i ponowne włączanie komputera?
+Odpowiedź: Aby ponownie uruchomić komputer 
