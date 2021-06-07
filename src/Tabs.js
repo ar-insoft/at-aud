@@ -16,7 +16,7 @@ class Tabs extends Component {
 
         }
     }
-    tab1 = Array.from({ length: 59 }, (v, k) => k < 9 ? '0' + (k + 1) : '' + (k + 1));
+    tab1 = Array.from({ length: 66 }, (v, k) => k < 9 ? '0' + (k + 1) : '' + (k + 1));
 
     taby = () => [
         ...this.tab1.map((lessonNo, index) => { //['06','30']
